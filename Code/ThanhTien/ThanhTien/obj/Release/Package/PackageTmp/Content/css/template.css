@@ -215,7 +215,7 @@ div.jsn-modulescontainer3 #jsn-pos-user7 {
 }
 #jsn-master
 {
- background:url(../images/bg-incucre.png) repeat ;	
+ background:url(../../images/jsn_epic_free/images/bg-incucre.png) repeat ;	
  padding-top: 10px;
 }
 /* ----- STICKLEFT / STICKRIGHT ----- */
@@ -2052,15 +2052,15 @@ margin: 0 auto;
 }
 .noidung_icr ul li:first-child 
 {
-    background:#fff000 url(../images/arrow_icr.png) no-repeat right center ;
+    background:#fff000 url(../../images/jsn_epic_free/images/arrow_icr.png) no-repeat right center ;
 }
 .noidung_icr ul li:nth-child(2) 
 {
-    background:#ff0000 url(../images/arrow_icr.png) no-repeat right center ;
+    background:#ff0000 url(../../images/jsn_epic_free/images/arrow_icr.png) no-repeat right center ;
 }
 .noidung_icr ul li:nth-child(3)
 { 
-  background:#0012ff url(../images/arrow_icr.png) no-repeat right center ;'
+  background:#0012ff url(../../images/jsn_epic_free/images/arrow_icr.png) no-repeat right center ;
 }
 .vcounter_TypeText
 {

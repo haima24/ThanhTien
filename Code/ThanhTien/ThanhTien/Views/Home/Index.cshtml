@@ -1,4 +1,6 @@
-﻿
+﻿@{
+    Layout = null;
+}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- jsn_epic_free 5.1.0 -->
 <html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="vi-vn" lang="vi-vn" dir="ltr">
@@ -13,7 +15,6 @@
     <link href="~/Content/system/css/modal.css" rel="stylesheet" />
     <link href="~/Content/k2store/css/k2store.css" rel="stylesheet" />
     <link href="~/Content/k2store/css/k2store_no_bootstrap.css" rel="stylesheet" />
-    <link href="~/Content/imageshow/css/style.css" rel="stylesheet" />
     <link href="~/Content/system/css/system.css" rel="stylesheet" />
     <link href="~/Content/css/general.css" rel="stylesheet" />
     <link href="~/Content/css/template.css" rel="stylesheet" />
@@ -26,364 +27,28 @@
     <link href="~/Content/jsnimageshow/css/style.css" rel="stylesheet" />
     <link href="~/Content/jsnimageshow/js/themes/classic/galleria.classic.css" rel="stylesheet" />
     <link href="~/Content/pwebfblikebox/css/likebox.css" rel="stylesheet" />
-  <style type="text/css">
-
-	#jsn-page {
-		width: 1172px;
-		min-width: 1172px;
-	}
-	#jsn-pos-promo-left {
-		float: left;
-		width: 23%;
-		left: -100%;
-	}
-	#jsn-pos-promo {
-		width: 100%;
-		left: 0;
-	}
-	#jsn-pos-promo-right {
-		float: right;
-		width: 23%;
-	}
-
-		#jsn-pos-promo-left {
-			left: auto;
-			display: auto;
-		}
-	
-		#jsn-content_inner { right: 73%; }
-		#jsn-content_inner1 { left: 73%; }
-	
-	#jsn-leftsidecontent {
-		float: left;
-		width: 27%;
-		left: -73%;
-	}
-	#jsn-maincontent {
-		float: left;
-		width: 73%;
-		left: 27%;
-	}
-	#jsn-rightsidecontent {
-		float: right;
-		width: 23%;
-	}
-
-	#jsn-pos-innerleft {
-		float: left;
-		width: 28%;
-		left: -100%;
-	}
-	#jsn-centercol {
-		float: left;
-		width: 100%;
-		left: 0;
-	}
-	#jsn-pos-innerright {
-		float: right;
-		width: 28%;
-	}
-
-		div.jsn-modulecontainer ul.menu-mainmenu ul,
-		div.jsn-modulecontainer ul.menu-mainmenu ul li {
-			width: 200px;
-		}
-		div.jsn-modulecontainer ul.menu-mainmenu ul ul {
-		margin-left: 199px;
-		}
-		#jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul ul {
-		
-				margin-right: 199px;
-				margin-left : auto
-		}
-	
-		div.jsn-modulecontainer ul.menu-sidemenu ul,
-		div.jsn-modulecontainer ul.menu-sidemenu ul li {
-			width: 200px;
-		}
-		div.jsn-modulecontainer ul.menu-sidemenu li ul {
-			right: -200px;
-		}
-		body.jsn-direction-rtl div.jsn-modulecontainer ul.menu-sidemenu li ul {
-			left: -200px;
-			right: auto;
-		}
-		div.jsn-modulecontainer ul.menu-sidemenu ul ul {
-		margin-left: 199px;
-		}
-	
-
-		/* Styles for DJ Image Slider with module id 145 */
-		#djslider-loader145 {
-			margin: 0 auto;
-			position: relative;
-		}
-		#djslider145 {
-			margin: 0 auto;
-			position: relative;
-			height: 430px; 
-			width: 200px;
-			max-width: 200px;
-		}
-		#slider-container145 {
-			position: absolute;
-			overflow:hidden;
-			left: 0; 
-			top: 0;
-			height: 100%;
-			width: 100%;
-		}
-		#djslider145 ul#slider145 {
-			margin: 0 !important;
-			padding: 0 !important;
-			border: 0 !important;
-		}
-		#djslider145 ul#slider145 li {
-			list-style: none outside !important;
-			float: left;
-			margin: 0 !important;
-			border: 0 !important;
-			padding: 0 0px 10px 0 !important;
-			position: relative;
-			height: 100px;
-			width: 200px;
-			background: none;
-			overflow: hidden;
-		}
-		#slider145 li img {
-			width: auto;
-			height: 100%;
-			border: 0 !important;
-			margin: 0 !important;
-		}
-		#slider145 li a img, #slider145 li a:hover img {
-			border: 0 !important;
-		}
-		
-#jsn-themeclassic-jsgallery-BEtHx{
-	    			width: 100%;
-	    			background-color: #efefef;
-	    			display:inline-table;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-container {
-	    			margin: 0 auto;
-	    			padding: 0;
-	    			background: #595959;
-	    			border: 1px solid #cccccc;
-					-webkit-border-radius: 0px;
-					-moz-border-radius: 0px;
-					border-radius: 0px;
-					height: 216px;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-container .galleria-stage{
-	    			position: absolute;
-				    top:5%;
-				    bottom: 5%;
-				    left: 5%;
-				    right: 5%;
-				    overflow:hidden;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-container .galleria-image-nav{
-				    position: absolute;
-				    top: 50%;
-				    margin-top: -62px;
-				    width: 100%;
-				    height: 62px;
-				    left: 0;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails .galleria-image {
-						border: 2px solid rgba(255, 255, 255, 0.3);
-					}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails .galleria-image:hover {
-	    			border: 2px solid #ff6200;
-	    			filter: alpha(opacity=100);
-					-moz-opacity: 1;
-					-khtml-opacity: 1;
-					opacity: 1;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails .active {
-	    			border: 2px solid #ff6200;
-	    			filter: alpha(opacity=100);
-					-moz-opacity: 1;
-					-khtml-opacity: 1;
-					opacity: 1;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails  {
-					height: 54px;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails-container{
-	    			background-color: #000000;
-	    			left: 0;
-				    right: 0;
-				    width: 100%;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails-list {
-    				margin-top: 5px;
-    				margin-left: 10px;
-    				margin-bottom: 5px;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-carousel .galleria-thumbnails-list {
-   	 				margin-left: 30px;
-   					margin-right: 30px;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails .galleria-image {
-    				width: 60px;
-    				height: 50px;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails-container {
-					height: 65px;
-					bottom: 0;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-info {
-					color: #FFFFFF;
-				    display: none;
-				    position: absolute;
-				    text-align: left;
-				    top: 0;
-				    width: 100%;
-				    z-index: 4;
-				    left:0;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-info .galleria-info-text {
-				    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
-				    padding: 12px;
-				    height: auto;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-info .galleria-info-text .galleria-info-title{
-					font-family: Verdana;
-font-size: 12px;
-font-weight: bold;
-text-align: left;
-color: #E9E9E9;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-info .galleria-info-text .galleria-info-description{
-					font-family: Arial;
-font-size: 11px;
-font-weight: normal;
-text-align: left;
-color: #AFAFAF;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-info .galleria-info-text .galleria-info-image-link{
-					font-family: Verdana;
-font-size: 11px;
-font-weight: bold;
-text-align: right;
-color: #E06614;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails-container .galleria-thumb-nav-right{
-					  background-position: -578px 15px;
-					  height: 65px;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails-container .galleria-thumb-nav-left{
-					  background-position: -495px 15px;
-					  height: 65px;
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails-container .galleria-thumb-nav-left:hover{
-					   background-color: rgba(255, 255, 255, 0.3);
-				}
-#jsn-themeclassic-jsgallery-BEtHx .galleria-thumbnails-container .galleria-thumb-nav-right:hover{
-					   background-color: rgba(255, 255, 255, 0.3);
-				}
-
-  </style>
-    <script type="text/javascript" src="~/Content/system/js/mootools-core.js"></script>
-    <script type="text/javascript" src="~/Content/system/js/core.js"></script>
-    <script  type="text/javascript" src="~/Scripts/jquery-1.8.0.js"></script>
-    <script type="text/javascript" src="~/Content/k2/js/k2.js"></script>
-    <script type="text/javascript" src="~/Content/system/js/modal.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.validate.js"></script>
-    <script type="text/javascript" src="~/Content/k2store/js/k2store.js"></script>
-    <script type="text/javascript" src="~/Content/system/js/caption.js"></script>
-    <script type="text/javascript" src="~/Content/system/js/mootools-more.js"></script>
-    <script type="text/javascript" src="~/Content/jsntplframework/jsn_is_conflict.js"></script>
-    <script type="text/javascript" src="~/Content/jsntplframework/utils.js"></script>
-    <script type="text/javascript" src="~/Content/system/js/jsn_template.js"></script>
-    <script type="text/javascript" src="~/Content/djimageslider/powertools-1.2.0.js"></script>
-    <script type="text/javascript" src="~/Content/djimageslider/slider.js"></script>
-    <script type="text/javascript" src="~/Content/jsnimageshow/js/galleria-1.2.8.js"></script>
-    <script type="text/javascript" src="~/Content/jsnimageshow/js/themes/classic/galleria.classic.js"></script>
-    <script type="text/javascript" src="~/Content/pwebfblikebox/js/mootools.likebox.js"></script>
-  <script type="text/javascript">
-
-		window.addEvent('domready', function() {
-
-			SqueezeBox.initialize({});
-			SqueezeBox.assign($$('a.modal'), {
-				parse: 'rel'
-			});
-		});
-var k2storeURL = 'localhost';
-
-				if(typeof(K2Store) == 'undefined') {
-					var K2Store = jQuery.noConflict();
-				}
-
-		K2Store(document).ready(function(){
-			K2Store('.k2storeCartForm').each(function(){
-				K2Store(this).validate({
-						errorElement: 'em',
-						errorPlacement: function(error, element) {
-							error.appendTo( element.parent().parent().next('div'));
-						},
-						success: function(label) {
-							label.text('Ok').addClass('success');
-						},
-						submitHandler: function(form) {
-							form.submit();
-					 }
-			});
-		});
-	});	
-window.addEvent('load', function() {
-				new JCaption('img.caption');
-			});
-				JSNTemplate.initTemplate({
-					templatePrefix			: "jsn_epic_free_",
-					templatePath			: "/templates/jsn_epic_free",
-					enableRTL				: false,
-					enableGotopLink			: true,
-					enableMobile			: false,
-					enableMobileMenuSticky	: true
-				});
-			
-				(function ($) {
-				    window.addEvent('domready', function () {
-				        this.Slider145 = new DJImageSliderModule({ id: '145', slider_type: 1, slide_size: 110, visible_slides: 4, show_buttons: 0, show_arrows: 0, preload: 500 }, { auto: 1, transition: Fx.Transitions.Expo.easeIn, duration: 1000, delay: 4000 })
-				    });
-				})(document.id);
-(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.0";fjs.parentNode.insertBefore(js,fjs);}(document,"script","facebook-jssdk"));
-  </script>
-  <!--[if lte IE 8]>
-<link rel="stylesheet" href="/media/mod_pwebfblikebox/css/ie.css" />
-<![endif]-->
-
-  <!-- html5.js and respond.min.js for IE less than 9 -->
-  <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <script src="/plugins/system/jsntplframework/assets/3rd-party/respond/respond.min.js"></script>
-  <![endif]-->
+    <link href="~/Content/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" />
+    <script type="text/javascript" src="~/Scripts/jquery-1.8.0.js"></script>
     
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1578003022432607&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-</head>
-<body id="jsn-master" class="jsn-textstyle-personal jsn-textsize-medium jsn-color-blue jsn-direction-ltr jsn-specialfont jsn-css3 jsn-desktop  jsn-joomla-25 jsn-com-content jsn-view-article jsn-homepage">
-      <div id='fb-root'></div><script type='text/javascript'>
-
-      // Load the SDK Asynchronously
-      (function(d){
-      var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-      js = d.createElement('script'); js.id = id; js.async = true;
-      js.src = '//connect.facebook.net/vi_VN/all.js';
-      d.getElementsByTagName('head')[0].appendChild(js);
-    }(document));
-
+    <script type="text/javascript" src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Content/bxslider/jquery.bxslider.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery("#slider145").bxSlider({
+                auto: true,
+                infiniteLoop:true,
+                hidePrevNext:true,
+                mode:"vertical",
+                autoStart: true,
+                minSlides: 4,
+                maxSlides: 4
+            });
+        });
     </script>
+  </head>
+<body id="jsn-master" class="jsn-textstyle-personal jsn-textsize-medium jsn-color-blue jsn-direction-ltr jsn-specialfont jsn-css3 jsn-desktop  jsn-joomla-25 jsn-com-content jsn-view-article jsn-homepage">
+      
   <a name="top" id="top"></a>
   <div id="jsn-page">
       <div id="jsn-pos-stick-leftmiddle">
@@ -393,19 +58,6 @@ window.addEvent('load', function() {
 		<div class="pwebfblikebox_container" style="width:176px;"><div id="fb-root"></div><div class="fb-like-box" id="pwebfblikebox143_html5" data-href="https://www.facebook.com/pages/incucrecom/937227382978006?ref=ts&amp" data-stream="false" data-header="false" data-width="176" data-height="240" data-show-border="false"></div></div>
 </div>
 
-<script type="text/javascript">
-(function(){
-	pwebFBLikeBox143 = new pwebFBLikeBox({
-		id: 		143,
-		prefix: 	'pwebfblikebox143',
-		open: 		'mouseenter',
-		close: 		'mouseleave',
-				position: 	'right',
-		top: 		-1,
-		layout: 	'slidebox'
-	});
-})();
-if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncInit;window.fbAsyncInit=function(){FB.Event.subscribe("edge.create",function(u){if(typeof ga!="undefined")ga("send","social","facebook","like",u)});FB.Event.subscribe("edge.remove",function(u){if(typeof ga!="undefined")ga("send","social","facebook","unlike",u)});if(typeof window.fbAsyncInitPweb=="function")window.fbAsyncInitPweb.apply(this,arguments)};</script>
 <!-- PWebFBLikeBox end --><div class="clearbreak"></div></div></div></div>
     </div>
       <div id="jsn-pos-stick-leftbottom">
@@ -459,13 +111,7 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
 <a href="@Url.Content("~/images/banners/04.jpg")"><img title="04.jpg" alt="04.jpg" shortdesc="" src="@Url.Content("/images/jsn_is_thumbs/images/banners/04.jpg")" longdesc="@Url.Content("~/images/banners/04.jpg")" /></a>
 <a href="@Url.Content("~/images/banners/03.jpg")"><img title="03.jpg" alt="03.jpg" shortdesc="" src="@Url.Content("/images/jsn_is_thumbs/images/banners/03.jpg")" longdesc="@Url.Content("~/images/banners/03.jpg")" /></a>
 </div></div></div>
-<script type="text/javascript">
-    jsnThemeClassicjQuery(function ()
-    {
-        jsnThemeClassicjQuery("#jsn-themeclassic-galleria-BEtHx").galleria({
-            autoplay: 5000, thumbnails: false, showImagenav: false, pauseOnInteraction: false, showInfo: false, infoPanelShowTitle: true, infoPanelShowDescription: true, popupLinks: true, imageClickAction: true, showImageLink: false, loop: true, thumbHeight: 50, thumbPosition: "bottom", imageCrop: true, informationPanelClickAction: false, height: 216, initialTransition: "fade", transition: "slide", thumbCrop: false, thumbFit: false, thumbQuality: false, showCounter: false, imageTimeout: 300000
-        });
-    });</script><div class="jsn-themeclassic-seocontent">
+<div class="jsn-themeclassic-seocontent">
 <div><p>List Banner</p><p></p><ul><li><p>12.jpg</p><p><a href="http://incucre.com/images/banners/12.jpg">http://incucre.com/images/banners/12.jpg</a></p></li><li><p>13.jpg</p><p><a href="http://incucre.com/images/banners/13.jpg">http://incucre.com/images/banners/13.jpg</a></p></li><li><p>14.jpg</p><p><a href="http://incucre.com/images/banners/14.jpg">http://incucre.com/images/banners/14.jpg</a></p></li><li><p>02.jpg</p><p><a href="http://incucre.com/images/banners/02.jpg">http://incucre.com/images/banners/02.jpg</a></p></li><li><p>05.jpg</p><p><a href="http://incucre.com/images/banners/05.jpg">http://incucre.com/images/banners/05.jpg</a></p></li><li><p>04.jpg</p><p><a href="http://incucre.com/images/banners/04.jpg">http://incucre.com/images/banners/04.jpg</a></p></li><li><p>03.jpg</p><p><a href="http://incucre.com/images/banners/03.jpg">http://incucre.com/images/banners/03.jpg</a></p></li></ul></div></div>
 </div></div><div class="clearbreak"></div></div></div></div></div></div><div class=" chuchay jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><div class="jsn-modulecontent">
 <div  >
@@ -495,14 +141,14 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
 <p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;"><span style="text-decoration: underline;">QUY CÁCH:</span></p>
 <p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;">Kích thước thành phẩm : (88 x 53)mm&nbsp;<br />In 2 mặt . Cán màn mờ 2 mặt, cắt thành phẩm&nbsp;<br />Định lượng giấy : Briston 300 gsm</p>
 <p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;">Số lượng in tối thiếu (05 hộp / mẫu)</p>
-<p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;"><img style="float: left;" src="/images/danhthiep3.jpg" alt="danhthiep3" width="605" height="146" border="0" /></p>
-<img style="display: block;" src="/images/truc.jpg" alt="truc" width="168" height="171" border="0" /><span style="text-align: center;">- Bảng giá trên chưa bao gồm 10% thuế GTGT . Bảng giá trên chưa bao gồm chi phí thiết kế 50,000 đ.</span></div>
+<p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;"><img style="float: left;" src="@Url.Content("~/images/danhthiep3.jpg")" alt="danhthiep3" width="605" height="146" border="0" /></p>
+<img style="display: block;" src="@Url.Content("~/images/truc.jpg")" alt="truc" width="168" height="171" border="0" /><span style="text-align: center;">- Bảng giá trên chưa bao gồm 10% thuế GTGT . Bảng giá trên chưa bao gồm chi phí thiết kế 50,000 đ.</span></div>
 <div style="margin: 0px; padding: 0px; font-family: arial; font-size: 15px; line-height: 15.6000003814697px;">
 <p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;">Để được tư vấn và báo giá cụ thể theo yêu cầu. Vui lòng liên hệ trực tiếpNgoài ra chúng tôi còn cung cấp các loại Danh thiếp khác theo yêu cầu như : Card đôi, danh thiếp có cấn bế, bo góc, in nổi và ép nhũ theo yêu cầu...Với mọi kích thước và qui cách khác.</p>
 <h3 style="margin-top: 0px; margin-bottom: 0px; padding: 16px 0px 4px; font-size: 16px; font-weight: bold; line-height: 16px;"><strong><span style="background-color: #ffff00;">THẺ TREO ( Tag treo )</span></strong></h3>
 <p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;">QUY CÁCH: &lt;= (88 x 53) mm, quy cách định lượng giấy giống như NAME CARD, có đục lỗ tròn<img style="float: right;" src="/images/banners/danhthiep_dcviet1.jpg" alt="danhthiep dcviet1" width="200" height="225" /></p>
-<p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;"><img src="/images/danhthiep4.jpg" alt="danhthiep4" width="611" height="190" border="0" /></p>
-<p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;"><img src="/images/sampledata/dich-vu-in-danh-thiep.jpg" alt="dich-vu-in-danh-thiep" width="744" height="1096" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;"><img src="@Url.Content("~/images/danhthiep4.jpg")" alt="danhthiep4" width="611" height="190" border="0" /></p>
+<p style="margin-top: 0px; margin-bottom: 0px; line-height: 2.5;"><img src="@Url.Content("~/images/sampledata/dich-vu-in-danh-thiep.jpg")" alt="dich-vu-in-danh-thiep" width="744" height="1096" style="display: block; margin-left: auto; margin-right: auto;" /></p>
 </div>			
 					</div>
 		<div class="clearbreak"></div>
@@ -519,7 +165,7 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
               <div id="jsn-pos-left">
                 <div class=" logo_fh jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><div class="jsn-modulecontent">
 <div  >
-	<p><a href="http://incucre.com/"><img src="/images/logoall.png" alt="logoall" width="250" height="100" /></a></p></div><div class="clearbreak"></div></div></div></div></div></div><div class=" danhmuc_icr jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><div class="jsn-modulecontent">
+	<p><a href="@Request.Url"><img src="@Url.Content("~/images/logoall.png")" alt="logoall" width="250" height="100" /></a></p></div><div class="clearbreak"></div></div></div></div></div></div><div class=" danhmuc_icr jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><div class="jsn-modulecontent">
 
 <div id="k2ModuleBox132" class="k2ItemsBlock  danhmuc_icr">
 
@@ -1079,7 +725,7 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
 </div>
 <div class="clearbreak"></div></div></div></div></div></div><div class=" hotro_icr jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><div class="jsn-modulecontent">
 <div  >
-	<p style="width: 300px;"><img src="/images/supportonline.png" border="0" alt="supportonline" width="116" height="44" /> <strong><em><span style="font-size: 11pt; color: #ffff00;">Liên hệ báo giá / Góp ý</span></em></strong></p>
+	<p style="width: 300px;"><img src="@Url.Content("~/images/supportonline.png")" border="0" alt="supportonline" width="116" height="44" /> <strong><em><span style="font-size: 11pt; color: #ffff00;">Liên hệ báo giá / Góp ý</span></em></strong></p>
 <table style="border-collapse: collapse; border-spacing: 0px; font-size: 12px; line-height: 15.600000381469727px; text-align: left;" border="0">
     <tbody>
         <tr>
@@ -1095,7 +741,7 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
                 <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 1.6; text-align: left;"><a href="ymsgr:sendim?thuongdaubap" style="text-decoration: underline; text-align: left;"><img src="http://opi.yahoo.com/online?u=thuongdaubap&amp;m=g&amp;t=2&amp;l=us" border="0" alt="Yahoo Messenger" width="110" height="20" style="float: left;" /></a></p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
-                <p><a href="skype:ingiare?call" style="width: 120px;"><img src="/images/skype.png" border="0" alt="incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
+                <p><a href="skype:pk_lilo777?call" style="width: 120px;"><img src="@Url.Content("~/images/skype.png")" border="0" alt="incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
                 <p style="margin-top: -20px; margin-bottom: 0px; padding: 0px; line-height: 1.8; float: right;"><img src="/images/sodt1.png" border="0" /></p>
             </td>
         </tr>
@@ -1112,7 +758,7 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
                 <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 1.6; text-align: left;"><a href="ymsgr:sendim?thuongdaubap" style="text-decoration: underline; text-align: left;"><img src="http://opi.yahoo.com/online?u=thuongdaubap&amp;m=g&amp;t=2&amp;l=us" border="0" alt="Yahoo Messenger" width="110" height="20" style="float: left;" /></a></p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
-                <p><a href="skype:ynhi.incucre?call" style="width: 120px;"><img src="/images/skype.png" border="0" alt="ynhi.incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
+                <p><a href="skype:pk_lilo777?call" style="width: 120px;"><img src="@Url.Content("~/images/skype.png")" border="0" alt="ynhi.incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
                 <p style="margin-top: -20px; margin-bottom: 0px; padding: 0px; line-height: 1.8; float: right;"><img src="/images/dt2.png" border="0" /></p>
             </td>
         </tr>
@@ -1129,7 +775,7 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
                 <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 1.6; text-align: left;"><a href="ymsgr:sendim?minhgiao.incucre" style="text-decoration: underline; text-align: left;"><img src="http://opi.yahoo.com/online?u=minhgiao.incucre&amp;m=g&amp;t=2&amp;l=us" border="0" alt="Yahoo Messenger" width="110" height="20" style="float: left;" /></a></p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
-                <p><a href="skype:minhgiao.incucre?call" style="width: 120px;"><img src="/images/skype.png" border="0" alt="minhgiao.incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
+                <p><a href="skype:minhgiao.incucre?call" style="width: 120px;"><img src="@Url.Content("~/images/skype.png")" border="0" alt="minhgiao.incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
                 <p style="margin-top: -20px; margin-bottom: 0px; padding: 0px; line-height: 1.8; float: right;"><img src="/images/dt3.png" border="0" /></p>
             </td>
         </tr>
@@ -1152,7 +798,7 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
                 <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 1.6; text-align: left;"><a href="ymsgr:sendim?thanhtruc.incucre" style="text-decoration: underline; text-align: left;"><img src="http://opi.yahoo.com/online?u=thanhtruc.incucre&amp;m=g&amp;t=2&amp;l=us" border="0" alt="Yahoo Messenger" width="110" height="20" style="float: left;" /></a></p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
-                <p><a href="skype:thanhtruc.incucre?call" style="width: 120px;"><img src="/images/skype.png" border="0" alt="thanhtruc.incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
+                <p><a href="skype:thanhtruc.incucre?call" style="width: 120px;"><img src="@Url.Content("~/images/skype.png")" border="0" alt="thanhtruc.incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
                 <p style="margin-top: -20px; margin-bottom: 0px; padding: 0px; line-height: 1.8; float: right;"><img src="/images/thanh-truc_03.jpg" border="0" alt="thanh-truc 03" width="135" height="22" /></p>
             </td>
         </tr>
@@ -1169,7 +815,7 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
                 <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 1.6; text-align: left;"><a href="ymsgr:sendim?mykien.incucre" style="text-decoration: underline; text-align: left;"><img src="http://opi.yahoo.com/online?u=mykien.incucre&amp;m=g&amp;t=2&amp;l=us" border="0" alt="Yahoo Messenger" width="110" height="20" style="float: left;" /></a></p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
-                <p><a href="skype:mykien-incucre?call" style="width: 120px;"><img src="/images/skype.png" border="0" alt="mykien-incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
+                <p><a href="skype:mykien-incucre?call" style="width: 120px;"><img src="@Url.Content("~/images/skype.png")" border="0" alt="mykien-incucre" width="115" height="40" style="display: block; background: transparent; margin-right: auto;" /></a></p>
                 <p style="margin-top: -20px; margin-bottom: 0px; padding: 0px; line-height: 1.8; float: right;"><img src="/images/sdt.png" border="0" alt="so-dt 03" width="137" height="29" /></p>
             </td>
         </tr>
@@ -1314,7 +960,6 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
 <div class="clearbreak"></div></div></div></div></div></div><div class=" truycap_icr jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><div class="jsn-modulecontent"><div class="mvc_main truycap_icr"><div style="text-align: center;" class="mvc_digitCounter truycap_icr"><span style="text-align: center;" class="vcounter_TypeText truycap_icr">215679</span></div><div style="text-align: center;" class="mvc_people truycap_icr"><table align="center" cellpadding="0" cellspacing="0" style="width: 90%;" class="mvc_peopleTable truycap_icr"><tbody><tr align="left" title=""><td>Số người truy cập :</td><td align="right">215679</td></tr></tbody></table></div></div><!-- Mod_VVisit_Counter :  http://www.mmajunke.de/ --><div class="clearbreak"></div></div></div></div></div></div><div class=" facebook_icr jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><div class="jsn-modulecontent">
 <div  >
 	<div class="fb-like-box" data-href="https://www.facebook.com/pages/incucrecom/937227382978006?ref=ts&amp;fref=ts" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div></div><div class="clearbreak"></div></div></div></div></div></div><div class="khach-hang jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Khách hàng thân thiết</span></h3><div class="jsn-modulecontent"><div style="border: 0px !important;">
-<div id="djslider-loader145" class="djslider-loader">
     <div id="djslider145" class="djslider">
         <div id="slider-container145" class="slider-container">
         	<ul id="slider145">
@@ -1358,51 +1003,9 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
 																									
 						
 					</li>
-                          			<li>
-          					            											<img src="/images/khachhang/bp_logo1.jpg" alt="bp_logo1.jpg" />
-																									
-						
-					</li>
-                          			<li>
-          					            											<img src="/images/khachhang/caonguyenxanh-logo___454x284.jpg" alt="caonguyenxanh-logo___454x284.jpg" />
-																									
-						
-					</li>
-                          			<li>
-          					            											<img src="/images/khachhang/cong-ty-cp-khoa-ng-sa-n-simco-fansifan0_1280969503.jpg" alt="cong-ty-cp-khoa-ng-sa-n-simco-fansifan0_1280969503.jpg" />
-																									
-						
-					</li>
-                          			<li>
-          					            											<img src="/images/khachhang/cong-ty-thiet-ke-logo-truong-mam-non-song-ngu-quoc-te-viet-sing-1.jpg" alt="cong-ty-thiet-ke-logo-truong-mam-non-song-ngu-quoc-te-viet-sing-1.jpg" />
-																									
-						
-					</li>
-                          			<li>
-          					            											<img src="/images/khachhang/cong-ty-tnhh-dau-tu-hai-ha_1285473621.jpg" alt="cong-ty-tnhh-dau-tu-hai-ha_1285473621.jpg" />
-																									
-						
-					</li>
-                          			<li>
-          					            											<img src="/images/khachhang/cong-ty-tnhh-noi-that-phu-thang0_1292511493.jpg" alt="cong-ty-tnhh-noi-that-phu-thang0_1292511493.jpg" />
-																									
-						
-					</li>
-                          			<li>
-          					            											<img src="/images/khachhang/images.png" alt="images.png" />
-																									
-						
-					</li>
-                          			<li>
-          					            											<img src="/images/khachhang/index.jpg" alt="index.jpg" />
-																									
-						
-					</li>
-                          			<li>
-          					            											<img src="/images/khachhang/logo-doanh-nghiep-BENTO.jpg" alt="logo-doanh-nghiep-BENTO.jpg" />
-																									
-						
-					</li>
+                          			
+                          			
+                          			
                           			<li>
           					            											<img src="/images/khachhang/logo-kinh-do.jpg" alt="logo-kinh-do.jpg" />
 																									
@@ -1448,12 +1051,7 @@ if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncIn
     </a>
   
   
-          <script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script");
-var b=document.getElementsByTagName("script")[0];
-a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0017/8199.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>
+          
 
   
 </body>
