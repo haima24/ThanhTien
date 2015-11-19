@@ -1,25 +1,32 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="44150" fromTop="20" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:modernizr-2.5.3.js" caret="3744" fromTop="12" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-ui-1.8.20.min.js" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-1.8.0.js" caret="1790" fromTop="16" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-1.7.1.intellisense.js" caret="148590" fromTop="12" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bxslider/f:jquery.bxslider.js" caret="10375" fromTop="40" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:jsnimageshow/d:js/d:themes/d:classic/f:galleria.classic.css" caret="1315" fromTop="11" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/f:site.css" caret="8210" fromTop="23" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:Error.cshtml" caret="29" fromTop="4" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:djimageslider/f:style.css" caret="463" fromTop="10" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="2066" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:Error.cshtml" caret="29" fromTop="4" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:IntroductionController.cs" caret="327" fromTop="15" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/f:_ViewStart.cshtml" caret="52" fromTop="2" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Introduction/f:Index.cshtml" caret="3152" fromTop="25" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bootstrap/d:css/f:bootstrap.css" caret="137175" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="44917" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-1.8.0.js" caret="267600" fromTop="23" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/f:site.css" caret="8319" fromTop="24" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="3098" fromTop="17" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="11193" fromTop="9" />
   </RecentFiles>
   <RecentEdits>
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="44150" fromTop="20" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-1.8.0.js" caret="267600" fromTop="23" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:jsnimageshow/d:js/d:themes/d:classic/f:galleria.classic.css" caret="1359" fromTop="12" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:djimageslider/f:style.css" caret="463" fromTop="10" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bxslider/f:jquery.bxslider.js" caret="9834" fromTop="21" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/f:site.css" caret="8210" fromTop="23" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="2066" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="44917" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="3103" fromTop="17" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Introduction/f:Index.cshtml" caret="3166" fromTop="18" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bootstrap/d:css/f:bootstrap.css" caret="136248" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-1.8.0.js" caret="267600" fromTop="23" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/f:site.css" caret="8319" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="11193" fromTop="9" />
   </RecentEdits>
 </RecentFiles>

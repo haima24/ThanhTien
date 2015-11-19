@@ -1,5 +1,5 @@
-2015/11/18-21:04:32.244 22c Recovering log #9
-2015/11/18-21:04:32.275 22c Level-0 table #11: started
-2015/11/18-21:04:32.453 22c Level-0 table #11: 142150 bytes OK
-2015/11/18-21:04:32.511 22c Delete type=0 #9
-2015/11/18-21:04:32.511 22c Delete type=3 #7
+2015/11/19-18:42:15.012 11f0 Recovering log #19
+2015/11/19-18:42:15.028 11f0 Level-0 table #21: started
+2015/11/19-18:42:15.121 11f0 Level-0 table #21: 2315 bytes OK
+2015/11/19-18:42:15.230 11f0 Delete type=0 #19
+2015/11/19-18:42:15.230 11f0 Delete type=3 #17
