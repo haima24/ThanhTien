@@ -702,7 +702,6 @@ div.jsn-modulecontainer ul.menu-mainmenu > li:last-child {
 }
 
 
-}
 div.jsn-modulecontainer ul.menu-mainmenu li a {
 	color: #CCC;
 	display: block;
@@ -1983,11 +1982,11 @@ margin-bottom: 5px;
 }
 
 .jsn-moduletitle {
-  background-color: #FFFC00 !important;
-  height: 22px;
-  width: 275px;
-  padding-top: 11px;
-  padding-left: 10px;
+    background-color: #FFFC00 !important;
+    height: 35px;
+    width: 283px;
+    padding-top: 10px;
+    padding-left: 50px;
 }
 
 .khach-hang.jsn-modulecontainer {
@@ -2157,4 +2156,11 @@ div.mvc_main
  .facebook_icr
  {
    background:#fff !important;
+ }
+ #jsn-body .bx-wrapper .bx-viewport{
+         -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+ .moduleItemTitle.new {
+         background: url('../../images/new.gif') no-repeat 100px center;
  }

@@ -333,7 +333,7 @@ margin-top: 20px;
 }
 #jsn-maincontent
 {
-   background:#f71c79;
+   background:#27A743;
    padding-bottom:15px;
    width: 73.001% !important;
 }
@@ -670,7 +670,7 @@ div.jsn-modulecontainer ul.menu-mainmenu {
 }
 
 ul.menu-mainmenu a {
-  color: #FFFFFF !important;
+  color: rgb(247, 240, 28) !important
 }
 
 div.jsn-modulecontainer ul.menu-mainmenu > li:hover {
@@ -702,7 +702,6 @@ div.jsn-modulecontainer ul.menu-mainmenu > li:last-child {
 }
 
 
-}
 div.jsn-modulecontainer ul.menu-mainmenu li a {
 	color: #CCC;
 	display: block;
@@ -724,7 +723,7 @@ div.jsn-modulecontainer ul.menu-mainmenu li > a > span {
 }
 
 ul.menu-mainmenu a:hover {
-    color: #FFF200 !important;
+    color: #FFF !important;
 }
 /* ----- RICH MENU STYLE ----- */
 div.jsn-modulecontainer ul.menu-mainmenu li a span.jsn-menudescription {
@@ -1978,16 +1977,16 @@ color: #1A1C79;
 {
   font-family: Arial;
 font-size: 15px;
-color: #fff;
+color: rgb(247, 240, 28);
 margin-bottom: 5px;
 }
 
 .jsn-moduletitle {
-  background-color: #FFFC00 !important;
-  height: 22px;
-  width: 275px;
-  padding-top: 11px;
-  padding-left: 10px;
+    background-color: #FFFC00 !important;
+    height: 35px;
+    width: 283px;
+    padding-top: 10px;
+    padding-left: 50px;
 }
 
 .khach-hang.jsn-modulecontainer {
@@ -1999,7 +1998,7 @@ margin-bottom: 5px;
 
 #jsn-pos-left div.jsn-modulecontainer
 {
-  background: #58BA01;
+  background: #27A743;
 }
 .hotro_icr div.jsn-modulecontent
 {
@@ -2095,17 +2094,17 @@ div.mvc_main
 .danhmuc_icr ul li:hover a  ,.danhmuc_icr ul li.active a 
 {
   text-decoration:none; 
-  color:yellow; 
+  color:#FFF; 
 }
 .danhmuc_icr ul li:hover , .danhmuc_icr ul li.active
 {
-  background: url('../images/whitedot.gif') no-repeat 0 center transparent;
+  background: url('../../images/whitedot.gif') no-repeat 0 center transparent;
 }
 .danhmuc_icr ul li a 
 {
   font-family:Arial;
   font-size:11pt; 
-  color:#fff;
+  color: rgb(247, 240, 28);
    border-bottom:1px solid #fff;
    display:block;
    line-height:37px;
@@ -2157,4 +2156,11 @@ div.mvc_main
  .facebook_icr
  {
    background:#fff !important;
+ }
+ #jsn-body .bx-wrapper .bx-viewport{
+         -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+ .moduleItemTitle.new {
+         background: url('../../images/new.gif') no-repeat 100px center;
  }

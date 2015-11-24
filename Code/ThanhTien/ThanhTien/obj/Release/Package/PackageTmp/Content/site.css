@@ -257,3 +257,8 @@
         .bx-wrapper img {
             display: inline;
         }
+        
+        .carousel-inner > .item > img.banner {
+            width: 835px;
+            height: 360px;
+        }

@@ -1,21 +1,34 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:modernizr-2.5.3.js" caret="3744" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-ui-1.8.20.min.js" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-1.7.1.intellisense.js" caret="148590" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bxslider/f:jquery.bxslider.js" caret="10375" fromTop="40" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:jsnimageshow/d:js/d:themes/d:classic/f:galleria.classic.css" caret="1315" fromTop="11" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:djimageslider/f:style.css" caret="463" fromTop="10" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:App_Data/f:ThanhTienDb.cs" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:IntroductionController.cs" caret="292" fromTop="13" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bootstrap/d:css/f:dataTables.responsive.css" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:App_Data/f:ThanhTienDb.Designer.cs" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:App_Data/f:ThanhTienDb.edmx.diagram" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:App_Data/f:ThanhTienDb.Context.cs" caret="949" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BaseService.cs" caret="226" fromTop="10" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Models/f:HomeViewModel.cs" caret="168" fromTop="9" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:HomeController.cs" caret="253" fromTop="8" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/f:Web.config" caret="6373" fromTop="95" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:font-awesome/d:css/f:font-awesome.css" caret="6668" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery.validate.js" caret="37453" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery.unobtrusive-ajax.js" caret="650" fromTop="16" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:App_Data/f:Category.cs" caret="662" fromTop="8" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bootstrap/d:js/f:jquery.dataTables.js" caret="158181" fromTop="11" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:CategoryController.cs" caret="1112" fromTop="19" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:CategoryService.cs" caret="1563" fromTop="17" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:EditCategory.cshtml" caret="1045" fromTop="17" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:category.js" caret="1238" fromTop="25" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:Index.cshtml" caret="944" fromTop="5" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:AdminController.cs" caret="761" fromTop="17" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Models/f:CategoryViewModel.cs" caret="258" fromTop="10" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="27039" fromTop="11" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:GetCategories.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:NewCategory.cshtml" caret="1717" fromTop="13" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Introduction/f:Index.cshtml" caret="957" fromTop="9" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:Error.cshtml" caret="29" fromTop="4" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:IntroductionController.cs" caret="327" fromTop="15" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/f:_ViewStart.cshtml" caret="52" fromTop="2" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Introduction/f:Index.cshtml" caret="3152" fromTop="25" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bootstrap/d:css/f:bootstrap.css" caret="137175" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="44917" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-1.8.0.js" caret="267600" fromTop="23" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/f:site.css" caret="8319" fromTop="24" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="3098" fromTop="17" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="11193" fromTop="9" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:AdminLayout.cshtml" caret="14081" fromTop="11" />
   </RecentFiles>
   <RecentEdits>
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:jsnimageshow/d:js/d:themes/d:classic/f:galleria.classic.css" caret="1359" fromTop="12" />
@@ -23,10 +36,26 @@
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bxslider/f:jquery.bxslider.js" caret="9834" fromTop="21" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="44917" fromTop="12" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="3103" fromTop="17" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Introduction/f:Index.cshtml" caret="3166" fromTop="18" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bootstrap/d:css/f:bootstrap.css" caret="136248" fromTop="12" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/f:jquery-1.8.0.js" caret="267600" fromTop="23" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/f:site.css" caret="8319" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="11193" fromTop="9" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:IntroductionController.cs" caret="301" fromTop="13" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Models/f:HomeViewModel.cs" caret="168" fromTop="9" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:HomeController.cs" caret="264" fromTop="9" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Introduction/f:Index.cshtml" caret="957" fromTop="9" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="3158" fromTop="14" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BaseService.cs" caret="226" fromTop="10" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:GetCategories.cshtml" caret="31" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:bootstrap/d:js/f:jquery.dataTables.js" caret="81861" fromTop="6" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:NewCategory.cshtml" caret="1717" fromTop="13" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:App_Data/f:Category.cs" caret="657" fromTop="8" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Models/f:CategoryViewModel.cs" caret="258" fromTop="10" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:AdminController.cs" caret="783" fromTop="17" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:EditCategory.cshtml" caret="1045" fromTop="17" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:CategoryService.cs" caret="1641" fromTop="19" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:CategoryController.cs" caret="1112" fromTop="19" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:Index.cshtml" caret="944" fromTop="14" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:category.js" caret="1237" fromTop="13" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:AdminLayout.cshtml" caret="14329" fromTop="16" />
   </RecentEdits>
 </RecentFiles>

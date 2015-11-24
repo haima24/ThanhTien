@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThanhTienDbModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ThanhTienDbEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="ThanhTienDbModel.Category" />
+    <EntitySet Name="sysdiagrams" EntityType="ThanhTienDbModel.sysdiagram" />
+    <EntitySet Name="Users" EntityType="ThanhTienDbModel.User" />
+    <AssociationSet Name="FK_Category_User" Association="ThanhTienDbModel.FK_Category_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Category" EntitySet="Categories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Category_User1" Association="ThanhTienDbModel.FK_Category_User1">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Category" EntitySet="Categories" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="Int32" Name="CreatedBy" Nullable="false" />
+    <Property Type="Int32" Name="UpdatedBy" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="false" Precision="3" />
+    <Property Type="DateTime" Name="UpdatedDate" Nullable="false" Precision="3" />
+    <NavigationProperty Name="User" Relationship="ThanhTienDbModel.FK_Category_User" FromRole="Category" ToRole="User" />
+    <NavigationProperty Name="User1" Relationship="ThanhTienDbModel.FK_Category_User1" FromRole="Category" ToRole="User" />
+    <Property Type="String" Name="CategoryDetail" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsNew" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="principal_id" Nullable="false" />
+    <Property Type="Int32" Name="diagram_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="version" />
+    <Property Type="Binary" Name="definition" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Int32" Name="UserId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Categories" Relationship="ThanhTienDbModel.FK_Category_User" FromRole="User" ToRole="Category" />
+    <NavigationProperty Name="Categories1" Relationship="ThanhTienDbModel.FK_Category_User1" FromRole="User" ToRole="Category" />
+  </EntityType>
+  <Association Name="FK_Category_User">
+    <End Type="ThanhTienDbModel.User" Role="User" Multiplicity="1" />
+    <End Type="ThanhTienDbModel.Category" Role="Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Category">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Category_User1">
+    <End Type="ThanhTienDbModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="ThanhTienDbModel.Category" Role="Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Category">
+        <PropertyRef Name="UpdatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
