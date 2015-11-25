@@ -120,6 +120,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Data\Banner.cs">
+      <DependentUpon>ThanhTienDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="App_Data\Config.cs">
+      <DependentUpon>ThanhTienDb.tt</DependentUpon>
+    </Compile>
     <Compile Include="App_Data\sysdiagram.cs">
       <DependentUpon>ThanhTienDb.tt</DependentUpon>
     </Compile>
@@ -133,10 +139,11 @@
     <Compile Include="App_Data\Category.cs">
       <DependentUpon>ThanhTienDb.tt</DependentUpon>
     </Compile>
+    <Compile Include="Constants\Common.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\BannerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\IntroductionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -160,6 +167,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ThanhTienDb.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Services\ConfigService.cs" />
+    <Compile Include="Services\BannerService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap\css\bootstrap-theme.css" />
@@ -188,6 +197,8 @@
     <Content Include="Content\css\template.css" />
     <Content Include="Content\bootstrap\css\dataTables.bootstrap.css" />
     <Content Include="Content\djimageslider\style.css" />
+    <Content Include="Content\dropzone\dropzone.css" />
+    <Content Include="Content\dropzone\dropzone.js" />
     <Content Include="Content\font-awesome\css\font-awesome.css" />
     <Content Include="Content\font-awesome\css\font-awesome.min.css" />
     <Content Include="Content\imageshow\css\style.css" />
@@ -284,23 +295,12 @@
     <Content Include="Content\font-awesome\fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\ThanhTien.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
-    <Content Include="images\banners\02.jpg" />
-    <Content Include="images\banners\03.jpg" />
-    <Content Include="images\banners\04.jpg" />
-    <Content Include="images\banners\05.jpg" />
-    <Content Include="images\banners\12.jpg" />
-    <Content Include="images\banners\13.jpg" />
-    <Content Include="images\banners\14.jpg" />
-    <Content Include="images\banners\danhthiep_dcviet.jpg" />
-    <Content Include="images\banners\danhthiep_dcviet1.jpg" />
-    <Content Include="images\banners\IMG_6728.JPG" />
-    <Content Include="images\banners\IMG_6731.JPG" />
-    <Content Include="images\banners\IMG_6734.JPG" />
-    <Content Include="images\banners\IMG_6736.JPG" />
-    <Content Include="images\banners\IMG_6737.JPG" />
+    <Content Include="images\banner\Chrysanthemum_635840623797896395.jpg" />
     <Content Include="images\classic-loader.gif" />
+    <Content Include="images\contact.png" />
     <Content Include="images\danhthiep3.jpg" />
     <Content Include="images\danhthiep4.jpg" />
+    <Content Include="images\email-icon.ico" />
     <Content Include="images\jsn_epic_free\images\arrow_icr.png" />
     <Content Include="images\jsn_epic_free\images\bg-incucre.png" />
     <Content Include="images\jsn_is_thumbs\images\banners\02.jpg" />
@@ -325,6 +325,8 @@
     <Content Include="images\khachhang\logo-va-slogan-xuc-tien-du-lich-viet-nam-o-trong-nuoc.jpg" />
     <Content Include="images\loader.gif" />
     <Content Include="images\logoall.png" />
+    <Content Include="images\logo\new.gif" />
+    <Content Include="images\logo\Tulips_635839830879784078.jpg" />
     <Content Include="images\new.gif" />
     <Content Include="images\sampledata\dich-vu-in-danh-thiep.jpg" />
     <Content Include="images\skype.png" />
@@ -333,6 +335,8 @@
     <Content Include="images\truc.jpg" />
     <Content Include="images\whitedot.gif" />
     <Content Include="Scripts\app\admin\category.js" />
+    <Content Include="Scripts\app\admin\config.js" />
+    <Content Include="Scripts\app\admin\configPages.js" />
     <Content Include="Scripts\jquery-1.11.3.js" />
     <Content Include="Scripts\jquery-1.8.0.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -361,7 +365,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Introduction\Index.cshtml" />
     <EntityDeploy Include="App_Data\ThanhTienDb.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ThanhTienDb.Designer.cs</LastGenOutput>
@@ -386,6 +389,17 @@
     <Content Include="Views\Admin\NewCategory.cshtml" />
     <Content Include="Views\Admin\DetailCategory.cshtml" />
     <Content Include="Views\Category\DetailCategory.cshtml" />
+    <Content Include="Views\Admin\ConfigLogo.cshtml" />
+    <Content Include="Views\Admin\ConfigBanner.cshtml" />
+    <Content Include="Views\Banner\GetBanners.cshtml" />
+    <Content Include="Views\Banner\DetailBanner.cshtml" />
+    <Content Include="Views\Admin\NewBanner.cshtml" />
+    <Content Include="Views\Banner\GetBannersView.cshtml" />
+    <Content Include="Views\Admin\ConfigProcess.cshtml" />
+    <Content Include="Views\Admin\ConfigContact.cshtml" />
+    <Content Include="Views\Home\GetPageByCode.cshtml" />
+    <Content Include="Views\Admin\ConfigIntroduction.cshtml" />
+    <Content Include="Views\Admin\ConfigHome.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "ConfigProcess";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+@model ThanhTien.App_Data.Config
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Quy Trình Đặt Hàng</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Chỉnh Sửa Quy Trình Đặt Hàng
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+             <p>
+                    <button type="button" id="btnSaveProcess" class="btn btn-primary">Lưu</button>
+                </p>
+                <div id="configProcess">@Html.Raw(Model.ConfigValue)</div>
+
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+      
+    </div>
+   
+</div>
+<!-- /.row -->
+
+
+@section scripts
+{
+   <script src="@Url.Content("~/Scripts/app/admin/configPages.js")"></script>
+}

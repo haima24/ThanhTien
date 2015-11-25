@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/21/2015 11:06:19</publishTime>
     </File>
     <File Include="App_Data/ThanhTienDb.edmx.diagram">
-      <publishTime>11/24/2015 09:09:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="App_Data/ThanhTienDb.tt">
       <publishTime>11/21/2015 11:06:20</publishTime>
@@ -62,7 +62,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/16/2015 18:30:27</publishTime>
     </File>
     <File Include="bin/ThanhTien.dll">
-      <publishTime>11/24/2015 10:02:06</publishTime>
+      <publishTime>11/25/2015 16:46:49</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>11/16/2015 18:30:31</publishTime>
@@ -89,7 +89,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/21/2015 13:26:04</publishTime>
     </File>
     <File Include="Content/bootstrap/css/dataTables.responsive.css">
-      <publishTime>11/21/2015 13:27:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Content/bootstrap/fonts/glyphicons-halflings-regular.eot">
       <publishTime>11/19/2015 20:35:49</publishTime>
@@ -158,10 +158,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/17/2015 08:40:59</publishTime>
     </File>
     <File Include="Content/css/sb-admin-2.css">
-      <publishTime>11/21/2015 13:27:39</publishTime>
+      <publishTime>11/24/2015 14:33:16</publishTime>
     </File>
     <File Include="Content/css/template.css">
-      <publishTime>11/24/2015 08:22:59</publishTime>
+      <publishTime>11/25/2015 15:41:54</publishTime>
     </File>
     <File Include="Content/djimageslider/powertools-1.2.0.js">
       <publishTime>11/16/2015 19:01:10</publishTime>
@@ -171,6 +171,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/djimageslider/style.css">
       <publishTime>11/18/2015 13:44:17</publishTime>
+    </File>
+    <File Include="Content/dropzone/dropzone.css">
+      <publishTime>11/24/2015 14:55:07</publishTime>
+    </File>
+    <File Include="Content/dropzone/dropzone.js">
+      <publishTime>11/24/2015 14:27:11</publishTime>
     </File>
     <File Include="Content/font-awesome/css/font-awesome.css">
       <publishTime>11/21/2015 13:28:36</publishTime>
@@ -484,6 +490,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Global.asax">
       <publishTime>11/16/2015 18:30:12</publishTime>
     </File>
+    <File Include="images/banner/Chrysanthemum_635840623797896395.jpg">
+      <publishTime>11/25/2015 16:39:18</publishTime>
+    </File>
     <File Include="images/banners/02.jpg">
       <publishTime>11/20/2015 14:22:14</publishTime>
     </File>
@@ -527,112 +536,130 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2015 14:22:14</publishTime>
     </File>
     <File Include="images/classic-loader.gif">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
+    </File>
+    <File Include="images/contact.png">
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/danhthiep3.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/danhthiep4.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
+    </File>
+    <File Include="images/email-icon.ico">
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/jsn_epic_free/images/arrow_icr.png">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/jsn_epic_free/images/bg-incucre.png">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/jsn_is_thumbs/images/banners/02.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/jsn_is_thumbs/images/banners/03.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/jsn_is_thumbs/images/banners/04.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/jsn_is_thumbs/images/banners/05.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/jsn_is_thumbs/images/banners/12.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/jsn_is_thumbs/images/banners/13.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/jsn_is_thumbs/images/banners/14.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/03-thiet-ke-logo-cong-ty-dep-tai-ha-noi.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/1337402899_55d935ed.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/1385972372_logo_lon-1.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/255082_orig.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/301211 Unilever logo.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/67.gif">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/77820101104230930logofptcolor.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/bds-dong-nam-a0_1257332102.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/cong-ty-cp-khoa-ng-sa-n-simco-fansifan0_1280969503.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/logo-doanh-nghiep-BENTO.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/logo-kinh-do.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/logo-TARIC%2810%29.png">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/khachhang/logo-va-slogan-xuc-tien-du-lich-viet-nam-o-trong-nuoc.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/loader.gif">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
+    </File>
+    <File Include="images/logo/new.gif">
+      <publishTime>11/25/2015 16:39:18</publishTime>
+    </File>
+    <File Include="images/logo/Tulips_635839830879784078.jpg">
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/logoall.png">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/new.gif">
-      <publishTime>11/24/2015 08:21:27</publishTime>
+      <publishTime>11/25/2015 16:39:18</publishTime>
     </File>
     <File Include="images/sampledata/dich-vu-in-danh-thiep.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:19</publishTime>
     </File>
     <File Include="images/skype.png">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:19</publishTime>
     </File>
     <File Include="images/support-online.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:19</publishTime>
     </File>
     <File Include="images/supportonline.png">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:19</publishTime>
     </File>
     <File Include="images/truc.jpg">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:19</publishTime>
     </File>
     <File Include="images/whitedot.gif">
-      <publishTime>11/20/2015 14:22:14</publishTime>
+      <publishTime>11/25/2015 16:39:19</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>11/16/2015 18:30:32</publishTime>
     </File>
     <File Include="Scripts/app/admin/category.js">
       <publishTime>11/24/2015 09:15:07</publishTime>
+    </File>
+    <File Include="Scripts/app/admin/config.js">
+      <publishTime>11/25/2015 16:01:20</publishTime>
+    </File>
+    <File Include="Scripts/app/admin/configPages.js">
+      <publishTime>11/25/2015 16:36:13</publishTime>
     </File>
     <File Include="Scripts/jquery-1.11.3.js">
       <publishTime>11/19/2015 20:50:52</publishTime>
@@ -685,6 +712,27 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/_references.js">
       <publishTime>11/16/2015 18:30:23</publishTime>
     </File>
+    <File Include="Views/Admin/Config.cshtml">
+      <publishTime>11/24/2015 14:18:42</publishTime>
+    </File>
+    <File Include="Views/Admin/ConfigBanner.cshtml">
+      <publishTime>11/25/2015 14:28:08</publishTime>
+    </File>
+    <File Include="Views/Admin/ConfigContact.cshtml">
+      <publishTime>11/25/2015 16:30:05</publishTime>
+    </File>
+    <File Include="Views/Admin/ConfigHome.cshtml">
+      <publishTime>11/25/2015 16:35:47</publishTime>
+    </File>
+    <File Include="Views/Admin/ConfigIntroduction.cshtml">
+      <publishTime>11/25/2015 16:30:09</publishTime>
+    </File>
+    <File Include="Views/Admin/ConfigLogo.cshtml">
+      <publishTime>11/25/2015 12:39:22</publishTime>
+    </File>
+    <File Include="Views/Admin/ConfigProcess.cshtml">
+      <publishTime>11/25/2015 16:16:39</publishTime>
+    </File>
     <File Include="Views/Admin/DetailCategory.cshtml">
       <publishTime>11/24/2015 09:02:39</publishTime>
     </File>
@@ -692,10 +740,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/22/2015 16:38:20</publishTime>
     </File>
     <File Include="Views/Admin/Index.cshtml">
-      <publishTime>11/24/2015 08:52:39</publishTime>
+      <publishTime>11/25/2015 15:52:31</publishTime>
+    </File>
+    <File Include="Views/Admin/NewBanner.cshtml">
+      <publishTime>11/25/2015 14:47:48</publishTime>
     </File>
     <File Include="Views/Admin/NewCategory.cshtml">
       <publishTime>11/22/2015 14:24:51</publishTime>
+    </File>
+    <File Include="Views/Banner/DetailBanner.cshtml">
+      <publishTime>11/25/2015 13:05:50</publishTime>
+    </File>
+    <File Include="Views/Banner/GetBanners.cshtml">
+      <publishTime>11/25/2015 13:03:14</publishTime>
+    </File>
+    <File Include="Views/Banner/GetBannersView.cshtml">
+      <publishTime>11/25/2015 15:38:37</publishTime>
     </File>
     <File Include="Views/Category/DetailCategory.cshtml">
       <publishTime>11/24/2015 09:58:26</publishTime>
@@ -703,20 +763,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Category/GetCategories.cshtml">
       <publishTime>11/24/2015 09:56:33</publishTime>
     </File>
+    <File Include="Views/Home/GetPageByCode.cshtml">
+      <publishTime>11/25/2015 16:21:35</publishTime>
+    </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>11/19/2015 20:07:22</publishTime>
+      <publishTime>11/25/2015 16:36:46</publishTime>
     </File>
     <File Include="Views/Introduction/Index.cshtml">
       <publishTime>11/21/2015 11:57:20</publishTime>
     </File>
     <File Include="Views/Shared/AdminLayout.cshtml">
-      <publishTime>11/24/2015 08:48:11</publishTime>
+      <publishTime>11/25/2015 16:34:08</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>11/16/2015 18:30:12</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>11/24/2015 08:17:06</publishTime>
+      <publishTime>11/25/2015 16:46:39</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>11/16/2015 18:30:12</publishTime>
@@ -725,7 +788,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/16/2015 18:30:12</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/24/2015 10:02:10</publishTime>
+      <publishTime>11/25/2015 16:46:50</publishTime>
     </File>
   </ItemGroup>
 </Project>

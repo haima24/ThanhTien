@@ -28,5 +28,7 @@ namespace ThanhTien.App_Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<sysdiagram> sysdiagrams { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Config> Configs { get; set; }
+        public DbSet<Banner> Banners { get; set; }
     }
 }

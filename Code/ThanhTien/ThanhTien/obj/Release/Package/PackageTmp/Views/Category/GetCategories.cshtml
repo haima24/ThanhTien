@@ -1,0 +1,30 @@
+﻿@model List<ThanhTien.App_Data.Category>
+@{
+    var count = 0;
+}
+<div id="k2ModuleBox132" class="k2ItemsBlock  danhmuc_icr">
+
+
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li class="@(count%2 == 0 ? "even" : "odd")">
+
+                <a class="moduleItemTitle" href="@Url.Action("DetailCategory","Category",new{id=item.CategoryId})">@item.CategoryName</a>
+
+
+                <div class="clr"></div>
+
+
+                <div class="clr"></div>
+
+                                                                                          
+
+                <div class="clr"></div>
+            </li>
+            count++;
+        }
+                                                                                        
+        <li class="clearList"></li>
+    </ul>
+                                                                                </div>

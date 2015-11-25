@@ -408,6 +408,7 @@ margin: 0 5px;
 position: relative;
 /* margin: 0 15px; */
 margin-top: 10px;
+    margin-bottom: 40px;
 }
 /* =============== LAYOUT - FOOTER AREA =============== */
 #jsn-footer {
@@ -1999,6 +2000,7 @@ margin-bottom: 5px;
 #jsn-pos-left div.jsn-modulecontainer
 {
   background: #27A743;
+    padding-bottom: 15px;
 }
 .hotro_icr div.jsn-modulecontent
 {

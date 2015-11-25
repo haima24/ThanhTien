@@ -1,0 +1,16 @@
+﻿@model List<ThanhTien.App_Data.Banner>
+@{var isFirst = true;}
+@foreach (var item in Model)
+{
+    if (!String.IsNullOrEmpty(item.BannerUrl))
+    { 
+       
+        <div class="item @(isFirst?"active":"")">
+            <img class="banner" src="@Url.Content(item.BannerUrl)" />
+            <div class="carousel-caption">
+            </div>
+        </div>
+        isFirst = false;
+    }
+
+}

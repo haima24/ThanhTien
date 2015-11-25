@@ -6,7 +6,9 @@
     <edmx:StorageModels>
     <Schema Namespace="ThanhTienDbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityContainer Name="ThanhTienDbModelStoreContainer">
+          <EntitySet Name="Banner" EntityType="ThanhTienDbModel.Store.Banner" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Category" EntityType="ThanhTienDbModel.Store.Category" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Config" EntityType="ThanhTienDbModel.Store.Config" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="sysdiagrams" EntityType="ThanhTienDbModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="User" EntityType="ThanhTienDbModel.Store.User" store:Type="Tables" Schema="dbo" />
           <AssociationSet Name="FK_Category_User" Association="ThanhTienDbModel.Store.FK_Category_User">
@@ -18,6 +20,14 @@
             <End Role="Category" EntitySet="Category" />
           </AssociationSet>
         </EntityContainer>
+        <EntityType Name="Banner">
+          <Key>
+            <PropertyRef Name="BannerId" />
+          </Key>
+          <Property Name="BannerId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="BannerName" Type="nvarchar" MaxLength="200" />
+          <Property Name="BannerUrl" Type="nvarchar(max)" />
+        </EntityType>
         <EntityType Name="Category">
           <Key>
             <PropertyRef Name="CategoryId" />
@@ -30,6 +40,14 @@
           <Property Name="UpdatedBy" Type="int" />
           <Property Name="CreatedDate" Type="datetime" Nullable="false" />
           <Property Name="UpdatedDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Config">
+          <Key>
+            <PropertyRef Name="ConfigId" />
+          </Key>
+          <Property Name="ConfigId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ConfigCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="ConfigValue" Type="nvarchar(max)" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -89,6 +107,8 @@
             <End Role="User" EntitySet="Users" />
             <End Role="Category" EntitySet="Categories" />
           </AssociationSet>
+          <EntitySet Name="Configs" EntityType="ThanhTienDbModel.Config" />
+          <EntitySet Name="Banners" EntityType="ThanhTienDbModel.Banner" />
         </EntityContainer>
         <EntityType Name="Category">
           <Key>
@@ -149,6 +169,22 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="Config">
+          <Key>
+            <PropertyRef Name="ConfigId" />
+          </Key>
+          <Property Type="Int32" Name="ConfigId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ConfigCode" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ConfigValue" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Banner">
+          <Key>
+            <PropertyRef Name="BannerId" />
+          </Key>
+          <Property Type="Int32" Name="BannerId" Nullable="false" />
+          <Property Type="String" Name="BannerName" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="BannerUrl" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -186,6 +222,24 @@
                 <ScalarProperty Name="Password" ColumnName="Password" />
                 <ScalarProperty Name="UserName" ColumnName="UserName" />
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Configs">
+            <EntityTypeMapping TypeName="ThanhTienDbModel.Config">
+              <MappingFragment StoreEntitySet="Config">
+                <ScalarProperty Name="ConfigValue" ColumnName="ConfigValue" />
+                <ScalarProperty Name="ConfigCode" ColumnName="ConfigCode" />
+                <ScalarProperty Name="ConfigId" ColumnName="ConfigId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Banners">
+            <EntityTypeMapping TypeName="ThanhTienDbModel.Banner">
+              <MappingFragment StoreEntitySet="Banner">
+                <ScalarProperty Name="BannerUrl" ColumnName="BannerUrl" />
+                <ScalarProperty Name="BannerName" ColumnName="BannerName" />
+                <ScalarProperty Name="BannerId" ColumnName="BannerId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
