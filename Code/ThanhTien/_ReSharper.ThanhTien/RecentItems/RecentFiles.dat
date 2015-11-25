@@ -1,27 +1,25 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:configPages.js" caret="1167" fromTop="16" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:HomeController.cs" caret="775" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:AdminLayout.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:IntroductionController.cs" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Constants/f:Common.cs" caret="408" fromTop="13" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigIntroduction.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:BannerController.cs" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigLogo.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigProcess.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:ConfigService.cs" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:CategoryController.cs" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:category.js" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BannerService.cs" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:CategoryService.cs" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BaseService.cs" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigHome.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigContact.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:AdminLayout.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigIntroduction.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigLogo.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigProcess.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:DetailCategory.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:Index.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:EditCategory.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:NewBanner.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Banner/f:GetBannersView.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BannerService.cs" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:CategoryService.cs" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BaseService.cs" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigBanner.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:NewCategory.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Banner/f:GetBanners.cshtml" caret="0" fromTop="0" />
@@ -29,7 +27,8 @@
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:DetailCategory.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:GetCategories.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:Error.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="62" fromTop="1" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="7524" fromTop="11" />
   </RecentFiles>
   <RecentEdits>
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:GetCategories.cshtml" caret="364" fromTop="9" />
@@ -54,7 +53,6 @@
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:GetPageByCode.cshtml" caret="61" fromTop="1" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigContact.cshtml" caret="96" fromTop="4" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigIntroduction.cshtml" caret="133" fromTop="4" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="16170" fromTop="10" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:AdminLayout.cshtml" caret="4897" fromTop="12" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:AdminController.cs" caret="2728" fromTop="13" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Constants/f:Common.cs" caret="408" fromTop="13" />
@@ -62,5 +60,6 @@
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:configPages.js" caret="1167" fromTop="16" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="61" fromTop="1" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:HomeController.cs" caret="775" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="7524" fromTop="11" />
   </RecentEdits>
 </RecentFiles>
