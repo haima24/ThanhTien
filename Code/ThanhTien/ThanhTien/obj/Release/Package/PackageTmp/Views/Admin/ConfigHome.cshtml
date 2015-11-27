@@ -21,7 +21,7 @@
              <p>
                     <button type="button" id="btnSaveHome" class="btn btn-primary">Lưu</button>
                 </p>
-                <div id="configHome">@Model</div>
+                <div id="configHome">@Html.Raw(Model.ConfigValue)</div>
 
             </div>
             <!-- /.panel-body -->

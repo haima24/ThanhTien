@@ -10,5 +10,6 @@ namespace ThanhTien.Models
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
         public string CategoryDetail { get; set; }
+        public bool IsNew { get; set; }
     }
 }

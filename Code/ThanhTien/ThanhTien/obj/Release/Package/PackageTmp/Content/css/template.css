@@ -333,7 +333,7 @@ margin-top: 20px;
 }
 #jsn-maincontent
 {
-   background:#27A743;
+   background:#275DAD;
    padding-bottom:15px;
    width: 73.001% !important;
 }
@@ -1999,7 +1999,7 @@ margin-bottom: 5px;
 
 #jsn-pos-left div.jsn-modulecontainer
 {
-  background: #27A743;
+  background: #275DAD;
     padding-bottom: 15px;
 }
 .hotro_icr div.jsn-modulecontent
@@ -2163,6 +2163,14 @@ div.mvc_main
          -moz-box-shadow: none;
     -webkit-box-shadow: none;
 }
- .moduleItemTitle.new {
-         background: url('../../images/new.gif') no-repeat 100px center;
+ #k2ModuleBox132 .new {
+    position: absolute;
+    width: 29px;
+    height: 19px;
+    background: url('../../images/new.gif') no-repeat center;
+    top: 50px;
+    left: 240px;
+ }
+ .position-relative {
+     position: relative;
  }

@@ -26,12 +26,13 @@ namespace ThanhTien.Controllers
         public ActionResult GetCategories()
         {
             var categories = _categoryService.GetAllCategories()
-                .Select(x=>new CategoryViewModel{CategoryId = x.CategoryId,CategoryName = x.CategoryName}).ToList();
+                .Select(x=>new CategoryViewModel{CategoryId = x.CategoryId,CategoryName = x.CategoryName,IsNew = x.IsNew,CategoryDetail = x.CategoryDetail}).ToList();
             return Json(new { data = categories }, JsonRequestBehavior.AllowGet);
         }
         public ActionResult ConfigLogo()
         {
-            return View();
+            var config = _configService.GetConfig(Common.Logo);
+            return View(config);
         }
         public ActionResult ConfigBanner()
         {

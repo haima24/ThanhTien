@@ -8,9 +8,9 @@
     <ul>
         @foreach(var item in Model)
         {
-            <li class="@(count%2 == 0 ? "even" : "odd")">
+            <li class="position-relative @(count%2 == 0 ? "even" : "odd")">
 
-                <a class="moduleItemTitle" href="@Url.Action("DetailCategory","Category",new{id=item.CategoryId})">@item.CategoryName</a>
+                <a class="moduleItemTitle" href="@Url.Action("DetailCategory","Category",new{id=item.CategoryId})">@item.CategoryName</a><div class="@(item.IsNew?"new":string.Empty)"></div>
 
 
                 <div class="clr"></div>

@@ -1,65 +1,66 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Constants/f:Common.cs" caret="408" fromTop="13" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:BannerController.cs" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:ConfigService.cs" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:CategoryController.cs" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:category.js" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BannerService.cs" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:CategoryService.cs" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BaseService.cs" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigHome.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigContact.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:AdminLayout.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigIntroduction.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigLogo.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigProcess.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:DetailCategory.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:Index.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:EditCategory.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:NewBanner.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Banner/f:GetBannersView.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:BannerController.cs" caret="541" fromTop="13" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:category.js" caret="1713" fromTop="20" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BannerService.cs" caret="164" fromTop="2" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:AdminController.cs" caret="1183" fromTop="22" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="4420" fromTop="38" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:GetCategories.cshtml" caret="464" fromTop="14" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:configPages.js" caret="615" fromTop="15" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigContact.cshtml" caret="220" fromTop="8" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigIntroduction.cshtml" caret="130" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigHome.cshtml" caret="762" fromTop="11" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigBanner.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Constants/f:Common.cs" caret="396" fromTop="11" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Models/f:CategoryViewModel.cs" caret="139" fromTop="7" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:Index.cshtml" caret="1082" fromTop="11" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:AdminLayout.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:DetailCategory.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:EditCategory.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Banner/f:GetBannersView.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:NewCategory.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Banner/f:GetBanners.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Banner/f:DetailBanner.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:DetailCategory.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:GetCategories.cshtml" caret="0" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:Error.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="7524" fromTop="11" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="46195" fromTop="16" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:dropzone/f:dropzone.js" caret="4880" fromTop="21" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:NewBanner.cshtml" caret="0" fromTop="0" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:sb-admin-2.css" caret="5831" fromTop="20" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigLogo.cshtml" caret="672" fromTop="11" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:config.js" caret="1546" fromTop="17" />
   </RecentFiles>
   <RecentEdits>
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:GetCategories.cshtml" caret="364" fromTop="9" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:CategoryController.cs" caret="1947" fromTop="17" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:DetailCategory.cshtml" caret="53" fromTop="1" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/f:Web.config" caret="873" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:dropzone/f:dropzone.js" caret="19777" fromTop="9" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:sb-admin-2.css" caret="5747" fromTop="16" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:dropzone/f:dropzone.css" caret="4420" fromTop="11" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigLogo.cshtml" caret="35" fromTop="1" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigBanner.cshtml" caret="1475" fromTop="11" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:NewBanner.cshtml" caret="36" fromTop="0" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BaseService.cs" caret="387" fromTop="9" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:BannerController.cs" caret="774" fromTop="21" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BannerService.cs" caret="2112" fromTop="7" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Banner/f:GetBannersView.cshtml" caret="388" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="43086" fromTop="14" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:Index.cshtml" caret="1603" fromTop="10" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:config.js" caret="1977" fromTop="9" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:ConfigService.cs" caret="1568" fromTop="16" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigProcess.cshtml" caret="778" fromTop="11" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:GetPageByCode.cshtml" caret="61" fromTop="1" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigContact.cshtml" caret="96" fromTop="4" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigIntroduction.cshtml" caret="133" fromTop="4" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:AdminLayout.cshtml" caret="4897" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:AdminController.cs" caret="2728" fromTop="13" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Constants/f:Common.cs" caret="408" fromTop="13" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigHome.cshtml" caret="227" fromTop="4" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:configPages.js" caret="1167" fromTop="16" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Home/f:Index.cshtml" caret="61" fromTop="1" />
     <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:HomeController.cs" caret="775" fromTop="12" />
-    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="7524" fromTop="11" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:Index.cshtml" caret="1082" fromTop="11" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Models/f:CategoryViewModel.cs" caret="349" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:CategoryService.cs" caret="1050" fromTop="14" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:CategoryController.cs" caret="855" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:category.js" caret="5409" fromTop="19" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigHome.cshtml" caret="762" fromTop="11" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigContact.cshtml" caret="220" fromTop="8" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:configPages.js" caret="476" fromTop="10" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Category/f:GetCategories.cshtml" caret="232" fromTop="10" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Shared/f:_Layout.cshtml" caret="4420" fromTop="8" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:AdminController.cs" caret="1159" fromTop="12" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Controllers/f:BannerController.cs" caret="648" fromTop="14" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Services/f:BannerService.cs" caret="344" fromTop="8" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:template.css" caret="46195" fromTop="16" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Views/d:Admin/f:ConfigLogo.cshtml" caret="591" fromTop="10" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Content/d:css/f:sb-admin-2.css" caret="5831" fromTop="20" />
+    <File id="BDE4A47D-37D2-46DF-8F23-5D4D945CDEC4/d:Scripts/d:app/d:admin/f:config.js" caret="1546" fromTop="17" />
   </RecentEdits>
 </RecentFiles>

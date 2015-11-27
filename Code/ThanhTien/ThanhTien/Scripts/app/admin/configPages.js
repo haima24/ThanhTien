@@ -10,7 +10,7 @@
     });
     $("#configContact").summernote();
     $('#btnSaveContact').on('click', function () {
-        var code = $('#configProcess').code();
+        var code = $('#configContact').code();
         $.post('/Admin/SaveConfigContact', { value: code }, function (data) {
             if (data.result) {
                 alert("Đã Lưu Thành Công");

@@ -24,6 +24,18 @@ namespace ThanhTien.Services
             }
             return category!=null&&result>0;
         }
+        public bool UpdateCategory(int id, bool isNew)
+        {
+            var category = Context.Categories.FirstOrDefault(x => x.CategoryId == id);
+            var result = 0;
+            if (category != null)
+            {
+                category.IsNew = isNew;
+                category.UpdatedDate = DateTime.Now;
+                result = Context.SaveChanges();
+            }
+            return category != null && result > 0;
+        }
         public bool UpdateCategoryDetail(int id, string detail)
         {
             var category = Context.Categories.FirstOrDefault(x => x.CategoryId == id);

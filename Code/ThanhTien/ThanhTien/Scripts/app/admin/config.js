@@ -2,6 +2,7 @@
     Dropzone.autoDiscover = false;
     $("#logoDropzone").dropzone({
         url: "/admin/ChangeLogo",
+        dictDefaultMessage: '',
         thumbnailWidth:250,
         thumbnailHeight:100
     });
@@ -11,8 +12,12 @@
         "columns": [
             {
                 "data": "BannerUrl",
-                "render": function (url,o,obj) {
-                    return '<form bannerid=' + obj.BannerId + ' class="dropzone banner-input"></form>';
+                "render": function (url, o, obj) {
+                    if (obj.BannerUrl) {
+                        return '<form bannerid=' + obj.BannerId + ' class="dropzone banner-input dropzone500"><img src=' + obj.BannerUrl + ' width="500" height="200"></form>';
+                    } else {
+                        return '<form bannerid=' + obj.BannerId + ' class="dropzone banner-input dropzone500"></form>';
+                    }
                 }
             },
             {
@@ -21,7 +26,7 @@
              {
                  "data": "BannerId",
                  "render": function (id, o, obj) {
-                     return id;
+                     return '<button type="button" bannerid="' + id + '" class="btn btn-danger btn-delete-banner"> <i class="fa fa-remove"></i> Xóa</button>';
                  }
              }
             
@@ -30,13 +35,21 @@
             $(".banner-input").each(function () {
                 $(this).dropzone({
                     url: "/banner/ChangeBanner",
-                    thumbnailWidth: 250,
-                    thumbnailHeight: 100,
+                    thumbnailWidth: 500,
+                    thumbnailHeight: 200,
                     params: {
                         bannerId: $(this).attr('bannerid')
                     },
                 });
-            });            
+            });
+            $('.btn-delete-banner').on('click', function () {
+                var bannerId = $(this).attr('bannerid');
+                $.post('/Banner/DeleteBanner', { bannerId: bannerId }, function (data) {
+                    if (data.result) {
+                        table.ajax.reload();
+                    }
+                });
+            });
                
         }
     });

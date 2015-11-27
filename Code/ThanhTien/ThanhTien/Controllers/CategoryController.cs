@@ -21,9 +21,14 @@ namespace ThanhTien.Controllers
             var categories = CategoryService.GetAllCategories();
             return PartialView(categories);
         }
-        public ActionResult EditCategory(int id,string categoryName)
+        public ActionResult EditCategory(int id, string categoryName)
         {
             var result = CategoryService.UpdateCategory(id, categoryName);
+            return Json(new { result });
+        }
+        public ActionResult EditIsNewCategory(int id,bool isNew)
+        {
+            var result = CategoryService.UpdateCategory(id, isNew);
             return Json(new {result});
         }
         public ActionResult CreateCategory(string categoryName)

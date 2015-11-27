@@ -45,7 +45,7 @@
             });
         });
     </script>
-@*    @Styles.Render("~/Content/css")
+    @*    @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")*@
 </head>
 <body id="jsn-master" class="jsn-textstyle-personal jsn-textsize-medium jsn-color-blue jsn-direction-ltr jsn-specialfont jsn-css3 jsn-desktop  jsn-joomla-25 jsn-com-content jsn-view-article">
@@ -71,32 +71,6 @@
                 </div>
             </div>
         </div>
-        <div id="jsn-pos-stick-leftbottom">
-            <div class=" jsn-modulecontainer">
-                <div class="jsn-modulecontainer_inner">
-                    <div class="jsn-modulecontent">
-                        <div>
-                            <p>
-                                <img src="/images/support-online.jpg" width="1172" height="60" alt="support-online" /></p>
-                        </div>
-                        <div class="clearbreak"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="jsn-header">
-            <div id="jsn-logo">
-                <h1 class="jsn-topheading">Dấu Chân Việt - </h1>
-                <a href="http://incucre.com/" title="">
-                    <img src="/images/logo_icr.png" alt="" id="jsn-logo-desktop" /></a>
-            </div>
-            <div id="jsn-headerright">
-            </div>
-            <div class="clearbreak"></div>
-            <div id="jsn-menu">
-                <div class="clearbreak"></div>
-            </div>
-        </div>
         <div id="jsn-body">
 
             <div id="jsn-content" class="jsn-hasleft ">
@@ -120,11 +94,14 @@
                                                                                     <div class="jsn-modulecontent">
                                                                                         <span class="jsn-menu-toggle">Menu</span>
                                                                                         <ul class="menu-mainmenu">
-                                                                                            <li class="first"><a  href="@Url.Action("GetPageByCode","Home",new{Code="Introduction"})" >
+                                                                                            <li class="first"><a  href="@Url.Action("GetPageByCode", "Home", new { Code = "Introduction" })" >
                                                                                                 <span>Giới thiệu	</span>
-                                                                                            </a>
+                                                                                            </a></li>
                                                                                             <li class="last"><a href="/gia-cong-can-man.html">
-                                                                                                <span>Gia công cán màng	</span>
+                                                                                                <span>Quy Trình In Ấn</span>
+                                                                                            </a></li>
+                                                                                            <li class="last"><a href="/gia-cong-can-man.html">
+                                                                                                <span>Quy Trình In Ấn</span>
                                                                                             </a></li>
                                                                                         </ul>
                                                                                         <div class="clearbreak"></div>
@@ -145,10 +122,10 @@
                                                                                                     <div id="jsn-themeclassic-jsgallery-BEtHx">
                                                                                                         <div id="banner-slider" class="carousel slide" data-interval="2000" data-ride="carousel">
                                                                                                             <div class="carousel-inner" role="listbox">
-                                                                                                               @{Html.RenderAction("GetBannersView","Banner");}
-                                                                                                               
+                                                                                                                @{Html.RenderAction("GetBannersView", "Banner");}
+
                                                                                                             </div>
-                                                                                                            
+
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -214,8 +191,10 @@
                                                                         <div>
                                                                             <div class="jsn-modulecontent">
                                                                                 <div>
-                                                                                    <p><a href="@Url.Action("Index","Home")">
-                                                                                        <img src="@Url.Content(Html.Action("GetConfigByCode", "Home", new { code = "Logo" }).ToString())" alt="logoall" width="250" height="100" /></a></p>
+                                                                                    <p>
+                                                                                        <a href="@Url.Action("Index", "Home")">
+                                                                                            <img src="@Url.Content(Html.Action("GetConfigByCode", "Home", new { code = "Logo" }).ToString())" alt="logoall" width="250" height="100" /></a>
+                                                                                    </p>
                                                                                 </div>
                                                                                 <div class="clearbreak"></div>
                                                                             </div>
@@ -229,8 +208,8 @@
                                                                         <div>
                                                                             <div class="jsn-modulecontent">
 
-                                                                            @{Html.RenderAction("GetCategories", "Category");}
-                                                    <div class="clearbreak"></div>
+                                                                                @{Html.RenderAction("GetCategories", "Category");}
+                                                                                <div class="clearbreak"></div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -244,24 +223,25 @@
                                                                                 <div>
                                                                                     <p style="width: 300px;">
                                                                                         <img src="@Url.Content("~/images/contact.png")" border="0" alt="supportonline" width="116" height="44" />
-                                                                                        <strong><em><span style="font-size: 11pt; color: #ffff00;">Liên hệ báo giá</span></em></strong></p>
+                                                                                        <strong><em><span style="font-size: 11pt; color: #ffff00;">Liên hệ báo giá</span></em></strong>
+                                                                                    </p>
                                                                                     <table style="border-collapse: collapse; border-spacing: 0px; font-size: 12px; line-height: 15.600000381469727px; text-align: left;" border="0">
                                                                                         <tbody>
                                                                                             <tr>
                                                                                                 <td style="width: 245px !important;">
                                                                                                     <p style="margin-top: 0px; margin-bottom: 0px; padding: 5px; line-height: 1.8; text-align: justify;"><strong>Địa Chỉ:</strong> 445/14 Lạc Long Quân, Phường 5, Quận 11, TP.Hồ Chí Minh</p>
                                                                                                 </td>
-                                                                                               
+
                                                                                             </tr>
                                                                                             <tr>
-                                                                                              <td style="width: 245px !important;">
+                                                                                                <td style="width: 245px !important;">
                                                                                                     <p style="margin-top: 0px; margin-bottom: 0px; padding: 5px; line-height: 1.8; text-align: justify;"><strong>Số Điện Thoại:</strong> Mrs.Linh - 090 9 906 903</p>
                                                                                                 </td>
                                                                                             </tr>
-                                                                                          
+
                                                                                         </tbody>
                                                                                     </table>
-                                                                                    
+
                                                                                 </div>
                                                                                 <div class="clearbreak"></div>
                                                                             </div>
@@ -285,7 +265,7 @@
                                                                                             <!-- K2 Plugins: K2BeforeDisplay -->
 
 
-                                                                                            <a class="moduleItemTitle" href="@Url.Action("GetPageByCode","Home",new{Code="Contact"})">Liên hệ</a>
+                                                                                            <a class="moduleItemTitle" href="@Url.Action("GetPageByCode", "Home", new { Code = "Contact" })">Liên hệ</a>
 
 
                                                                                             <!-- Plugins: AfterDisplayTitle -->
@@ -369,7 +349,7 @@
                                                                                             <!-- K2 Plugins: K2BeforeDisplay -->
 
 
-                                                                                            <a class="moduleItemTitle" href="@Url.Action("GetPageByCode","Home",new{Code="Process"})">Quy trình đặt hàng</a>
+                                                                                            <a class="moduleItemTitle" href="@Url.Action("GetPageByCode", "Home", new { Code = "Process" })">Quy trình đặt hàng</a>
 
 
                                                                                             <!-- Plugins: AfterDisplayTitle -->
@@ -416,8 +396,8 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                           
-                                                         
+
+
                                                             <div class="khach-hang jsn-modulecontainer">
                                                                 <div class="jsn-modulecontainer_inner">
                                                                     <div>
@@ -536,8 +516,8 @@
             </div>
         </div>
     </div>
-  <div id="jsn-copyright">
-  </div>
+    <div id="jsn-copyright">
+    </div>
     <a id="jsn-gotoplink" href="/#top">
         <span>TOP</span>
     </a>

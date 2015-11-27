@@ -11,7 +11,7 @@ namespace ThanhTien.Services
     {
         public List<Banner> GetAllBanners()
         {
-            return Context.Banners.ToList();
+            return Context.Banners.OrderByDescending(x=>x.BannerId).ToList();
         }
         public bool UpdateBanner(int id,string name,string bannerUrl)
         {
@@ -29,7 +29,7 @@ namespace ThanhTien.Services
         {
             var banner = new Banner();
             banner.BannerName = name;
-
+            banner.BannerUrl = string.Empty;
             Context.Banners.Add(banner);
             Context.SaveChanges();
             return banner.BannerId > 0;
@@ -70,6 +70,17 @@ namespace ThanhTien.Services
             }
             return result;
 
+        }
+        public bool DeleteBanner(int bannerId)
+        {
+            var banner = Context.Banners.FirstOrDefault(x => x.BannerId == bannerId);
+            var result = false;
+            if(banner!=null)
+            {
+                Context.Banners.Remove(banner);
+                result = Context.SaveChanges()>0;
+            }
+            return result;
         }
     }
 }

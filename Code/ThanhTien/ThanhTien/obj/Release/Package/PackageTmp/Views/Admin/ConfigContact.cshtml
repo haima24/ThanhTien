@@ -6,7 +6,7 @@
 @model ThanhTien.App_Data.Config
 <div class="row">
     <div class="col-lg-12">
-        <h1 class="page-header">Liên Hệ/h1>
+        <h1 class="page-header">Liên Hệ</h1>
     </div>
     <!-- /.col-lg-12 -->
 </div>
@@ -22,7 +22,7 @@
              <p>
                     <button type="button" id="btnSaveContact" class="btn btn-primary">Lưu</button>
                 </p>
-                <div id="configContact">@Model</div>
+                <div id="configContact">@Html.Raw(Model.ConfigValue)</div>
 
             </div>
             <!-- /.panel-body -->
