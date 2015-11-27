@@ -14,9 +14,9 @@
                 "data": "BannerUrl",
                 "render": function (url, o, obj) {
                     if (obj.BannerUrl) {
-                        return '<form bannerid=' + obj.BannerId + ' class="dropzone banner-input"><img src=' + obj.BannerUrl + ' width="500" height="200"></form>';
+                        return '<form bannerid=' + obj.BannerId + ' class="dropzone banner-input dropzone500"><img src=' + obj.BannerUrl + ' width="500" height="200"></form>';
                     } else {
-                        return '<form bannerid=' + obj.BannerId + ' class="dropzone banner-input"></form>';
+                        return '<form bannerid=' + obj.BannerId + ' class="dropzone banner-input dropzone500"></form>';
                     }
                 }
             },
@@ -35,8 +35,8 @@
             $(".banner-input").each(function () {
                 $(this).dropzone({
                     url: "/banner/ChangeBanner",
-                    thumbnailWidth: 250,
-                    thumbnailHeight: 100,
+                    thumbnailWidth: 500,
+                    thumbnailHeight: 200,
                     params: {
                         bannerId: $(this).attr('bannerid')
                     },

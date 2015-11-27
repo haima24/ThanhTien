@@ -295,7 +295,6 @@
     <Content Include="Content\font-awesome\fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\ThanhTien.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
-    <Content Include="images\banner\Chrysanthemum_635840623797896395.jpg" />
     <Content Include="images\classic-loader.gif" />
     <Content Include="images\contact.png" />
     <Content Include="images\danhthiep3.jpg" />
@@ -401,7 +400,9 @@
     <Content Include="Views\Admin\ConfigIntroduction.cshtml" />
     <Content Include="Views\Admin\ConfigHome.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="images\banner\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
