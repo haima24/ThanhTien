@@ -77,6 +77,12 @@ namespace ThanhTien.Services
             var result = false;
             if(banner!=null)
             {
+                //remove old file
+                var oldPath = HttpContext.Current.Server.MapPath(banner.BannerUrl);
+                if (File.Exists(oldPath))
+                {
+                    File.Delete(oldPath);
+                }
                 Context.Banners.Remove(banner);
                 result = Context.SaveChanges()>0;
             }
